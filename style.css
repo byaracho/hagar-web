@@ -1,0 +1,36 @@
+:root {
+    --BRAND-COLOR: #6A0066;
+    --BLACK: #000;
+    --WHITE: #FFF;
+    --GRAY-1: #D9D9D9;
+    --GRAY-2: #E1E1E1;
+    --CONTAINER-WIDTH: 580px;
+}
+
+/* reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* common */
+.container {
+    max-width: var(--CONTAINER-WIDTH);
+    margin: 0 auto;
+    /*  */
+    background-color: aqua;
+}
